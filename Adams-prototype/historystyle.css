@@ -1,0 +1,112 @@
+body {
+    background-color: #ffd288;
+    background-image: url(background.png);
+    font-family: OCR A Std, monospace;
+}
+
+div {
+
+    /*border-style: outset;
+    column-count: 2;
+    column-gap: 30px;
+    column-width: 60%;*/
+    /*background-color: plum;*/
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+    text-size-adjust: 45%;
+}
+
+.header-box {
+    background-color: #56DCC6;
+    /*color: #56DCC6;*/
+    text-align: center;
+    border-style: double;
+    border-color: beige;
+}
+
+.grid-attempt {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+
+    padding: 10px;
+}
+
+.box01 {
+    grid-column: 1;
+    grid-row: 1/span 4;
+    background-color: #56DCC6;
+    border-style: double;
+    border-color: beige;
+}
+
+.box02 {
+    grid-column: 2;
+    grid-row: 1/span 20;
+    background-color: plum;
+    border-style: double;
+    border-color: beige;
+}
+
+nav {
+    text-align: center;
+}
+
+/*
+.pic01 {
+    grid-column: 2;
+    grid-row: 3/span 4;
+}
+
+.box03 {
+    grid-column: 2;
+    grid-row: 4/span 2;
+}
+
+/*
+.pic02 {
+    grid-column: 2;
+    grid-row: 6/span 2;
+}
+
+.box04 {
+    grid-column: 2;
+    grid-row: 7/span 2;
+}
+
+/*
+.pic03 {
+    grid-column: 2;
+    grid-row: 9/span 4;
+}
+*/
+img {
+    margin-top: 0%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+    background-color: plum;
+}
+
+/*base*/
+a:link {
+    color: blueviolet;
+    background-color: white;
+    border-style: outset;
+}
+
+/*clicked*/
+a:visited {
+    color: teal;
+    background-color: whitesmoke;
+    border-style: inset;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    border-style: inset;
+}

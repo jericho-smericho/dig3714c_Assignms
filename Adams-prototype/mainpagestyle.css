@@ -1,0 +1,97 @@
+< !DOCTYPE html><html><head><style type="text/css">.header {
+    border-style: double;
+    border-color: black;
+    border-width: medium;
+}
+
+body {
+    background-color: #FFD288;
+    background-image: url(background.png);
+    font-family: OCR A Std, monospace;
+}
+
+
+h1 {
+    text-align: center;
+    color: beige;
+    border-style: double;
+    border-color: #56DCC6;
+    border-width: large;
+    border-radius: 20px;
+}
+
+/*box to contain h1*/
+.box {
+    color: #56DCC6;
+    background-color: #56DCC6;
+    border-style: groove;
+}
+
+/*the navigation box thing*/
+nav {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+}
+
+/*base*/
+a:link {
+    color: blueviolet;
+    background-color: white;
+    border-style: outset;
+}
+
+/*clicked*/
+a:visited {
+    color: teal;
+    background-color: whitesmoke;
+    border-style: inset;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    border-style: inset;
+}
+
+/*all of the mini sections belowo the main header*/
+h2 {
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+img {
+    margin-top: 0%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+
+}
+
+/*styling for text area, separate from background*/
+div {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+    background-color: plum;
+    border-style: outset;
+
+}

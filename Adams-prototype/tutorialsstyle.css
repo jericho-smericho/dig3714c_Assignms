@@ -1,0 +1,81 @@
+body {
+    background-color: #ffd288;
+    background-image: url(background.png);
+    font-family: OCR A Std, monospace;
+}
+
+/*
+div {
+    column-count: 2;
+    column-rule: 0px solid plum;
+    background-color: plum;
+}
+*/
+h1 {
+    text-align: center;
+    color: beige;
+    text-size-adjust: 45%;
+}
+
+/*box to contain h1*/
+.tutBox {
+    background-color: #56DCC6;
+    border-style: groove;
+    text-align: center;
+}
+
+/*the navigation box thing*/
+nav {
+    text-align: center;
+
+}
+
+p {
+    text-align: left;
+}
+
+.content-Bg {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+
+    padding: 10px;
+}
+
+.cont01 {
+    grid-column: 1;
+    grid-row: 1/span 4;
+    background-color: #56DCC6;
+    border-style: double;
+    border-color: beige;
+    text-align: left;
+}
+
+.cont02 {
+    grid-column: 2;
+    grid-row: 1/span 25;
+    background-color: plum;
+    border-style: double;
+    border-color: beige;
+}
+
+
+/*base*/
+a:link {
+    color: blueviolet;
+    background-color: white;
+    border-style: outset;
+}
+
+/*clicked*/
+a:visited {
+    color: teal;
+    background-color: whitesmoke;
+    border-style: inset;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    border-style: inset;
+}
