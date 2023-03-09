@@ -1,0 +1,151 @@
+@import "normalize.css";
+@import url('https://fonts.cdnfonts.com/css/armwrestler');
+
+body {
+    background-color: rgb(255, 110, 7);
+    font-family: 'ArmWrestler', sans-serif;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    nav {
+        background-image: url("../images/explosion.jpg");
+        background-size: 100%;
+
+    }
+
+    .nav {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: black;
+        /*grid-gap: 15px;*/
+        padding: 10px;
+    }
+
+    .nav1 {
+        /*background: rgb(1, 83, 24);
+        background-opacity: 20%;*/
+        color: whitesmoke;
+        grid-gap: 10px;
+        grid-column: 2;
+        grid-row: 1;
+
+    }
+
+    .nav2 {
+        /*background: rgb(1, 83, 24);
+        background-opacity: 20%;*/
+        color: whitesmoke;
+        grid-gap: 10px;
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .nav3 {
+        /*background: rgb(1, 83, 24);
+        background-opacity: 20%;*/
+        color: whitesmoke;
+        grid-gap: 10px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: black;
+        padding: 15px;
+    }
+
+    .text {
+        display: grid;
+        /*grid-template-columns: auto;*/
+        grid-column: 2;
+        grid-row: 1/span;
+        background-color: rgb(50, 2, 94);
+        color: bisque;
+        text-align: center;
+    }
+
+    .text0 {
+        display: grid;
+        /*grid-template-columns: auto;*/
+        grid-column: 2;
+        grid-row: 3/span 1;
+        background-color: rgb(50, 2, 94);
+        color: bisque;
+        text-align: center;
+    }
+
+    .image {
+        display: grid;
+        grid-row: 2;
+        grid-column: 2;
+        background-color: rgb(234, 144, 10);
+        padding: 10px;
+    }
+
+    .bannerL {
+        display: grid;
+        grid-row: 1/span 2;
+        grid-column: 1;
+        background-color: rgb(228, 140, 7);
+        height: 100%;
+        /*width: 100%;*/
+        padding: 10px;
+    }
+
+    .bannerL0 {
+        display: grid;
+        grid-row: 3;
+        grid-column: 1;
+        background-color: rgb(228, 140, 7);
+        height: 100%;
+        /*width: 100%;*/
+        padding: 10px;
+    }
+
+    .bannerR {
+        display: grid;
+        grid-row: 1/span 2;
+        grid-column: 5;
+        background-color: rgb(228, 140, 7);
+        height: 100%;
+        /*width: 100%;*/
+        padding: 10px;
+    }
+
+    .bannerR0 {
+        display: grid;
+        grid-row: 3;
+        grid-column: 5;
+        background-color: rgb(228, 140, 7);
+        height: 100%;
+        /*width: 100%;*/
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: black;
+        padding: 15px;
+    }
+
+    .text {
+        display: grid;
+        grid-template-columns: auto;
+
+
+        background-color: rgb(50, 2, 94);
+        color: bisque;
+        text-align: center;
+    }
+}
