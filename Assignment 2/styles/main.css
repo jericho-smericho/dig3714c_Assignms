@@ -1,0 +1,415 @@
+@import "normalize.css";
+@import url('https://fonts.cdnfonts.com/css/armwrestler');
+
+body {
+    background-color: rgb(255, 110, 7);
+    font-family: 'ArmWrestler', sans-serif;
+    color: beige;
+    background-image: url("../images/bgflow.png");
+}
+
+img {
+    display: block;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    background-color: rgb(255, 200, 0);
+    padding: 5px;
+    margin: 10px;
+}
+
+.header {
+    text-align: center;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: lightyellow;
+    background-color: lightyellow;
+    padding: 25px;
+    margin: 25px;
+    color: lightcoral;
+}
+
+.intro {
+    text-align: center;
+    background-color: darkslateblue;
+    padding: 5px;
+    margin: 25px;
+}
+
+@media screen and (min-width: 600px) {
+
+
+    .books {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 50px;
+
+        background-color: lightcoral;
+    }
+
+    .book01 {
+        grid-column: 1/span 2;
+        grid-row: 1/span 2;
+
+    }
+
+    .sum01 {
+        grid-column: 3;
+        grid-row: 1;
+        border-style: double;
+        border-radius: 8px;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana01 {
+        grid-column: 4;
+        grid-row: 2;
+        border-radius: 8px;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book02 {
+        grid-column: 1/span 2;
+        grid-row: 3/span 2;
+
+    }
+
+    .sum02 {
+        grid-column: 3;
+        grid-row: 3;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana02 {
+        grid-column: 4;
+        grid-row: 4;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book03 {
+        grid-column: 1/span 2;
+        grid-row: 5/span 2;
+
+    }
+
+    .sum03 {
+        grid-column: 3;
+        grid-row: 5;
+        border-style: double;
+        border-color: bisque;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .ana03 {
+        grid-column: 4;
+        grid-row: 6;
+        border-style: double;
+        border-color: bisque;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .book04 {
+        grid-column: 1/span 2;
+        grid-row: 7/span 2;
+
+    }
+
+    .sum04 {
+        grid-column: 3;
+        grid-row: 7;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana04 {
+        grid-column: 4;
+        grid-row: 8;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book05 {
+        grid-column: 1/span 2;
+        grid-row: 9/span 2;
+
+    }
+
+    .sum05 {
+        grid-column: 3;
+        grid-row: 9;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana05 {
+        grid-column: 4;
+        grid-row: 10;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book06 {
+        grid-column: 1/span 2;
+        grid-row: 11/span 2;
+
+    }
+
+    .sum06 {
+        grid-column: 3;
+        grid-row: 11;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana06 {
+        grid-column: 4;
+        grid-row: 12;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book07 {
+        grid-column: 1/span 2;
+        grid-row: 13/span 2;
+
+    }
+
+    .sum07 {
+        grid-column: 3;
+        grid-row: 13;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana07 {
+        grid-column: 4;
+        grid-row: 14;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book08 {
+        grid-column: 1/span 2;
+        grid-row: 15/span 2;
+
+    }
+
+    .sum08 {
+        grid-column: 3;
+        grid-row: 15;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana08 {
+        grid-column: 4;
+        grid-row: 16;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book09 {
+        grid-column: 1/span 2;
+        grid-row: 17/span 2;
+
+    }
+
+    .sum09 {
+        grid-column: 3;
+        grid-row: 17;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana09 {
+        grid-column: 4;
+        grid-row: 18;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book10 {
+        grid-column: 1/span 2;
+        grid-row: 19/span 2;
+
+    }
+
+    .sum10 {
+        grid-column: 3;
+        grid-row: 19;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana10 {
+        grid-column: 4;
+        grid-row: 20;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book11 {
+        grid-column: 1/span 2;
+        grid-row: 21/span 2;
+
+    }
+
+    .sum11 {
+        grid-column: 3;
+        grid-row: 21;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana11 {
+        grid-column: 4;
+        grid-row: 22;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book12 {
+        grid-column: 1/span 2;
+        grid-row: 23/span 2;
+
+    }
+
+    .sum12 {
+        grid-column: 3;
+        grid-row: 23;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana12 {
+        grid-column: 4;
+        grid-row: 24;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book13 {
+        grid-column: 1/span 2;
+        grid-row: 25/span 2;
+
+    }
+
+    .sum13 {
+        grid-column: 3;
+        grid-row: 25;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana13 {
+        grid-column: 4;
+        grid-row: 26;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book14 {
+        grid-column: 1/span 2;
+        grid-row: 27/span 2;
+
+    }
+
+    .sum14 {
+        grid-column: 3;
+        grid-row: 27;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana14 {
+        grid-column: 4;
+        grid-row: 28;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .book15 {
+        grid-column: 1/span 2;
+        grid-row: 29/span 2;
+
+    }
+
+    .sum15 {
+        grid-column: 3;
+        grid-row: 29;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .ana15 {
+        grid-column: 4;
+        grid-row: 30;
+        border-style: double;
+        border-color: bisque;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 400px) {}
