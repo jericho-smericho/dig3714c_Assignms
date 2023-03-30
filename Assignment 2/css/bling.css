@@ -1,0 +1,1268 @@
+@import url(normalize.css);
+
+body {
+    background-color: orangered;
+    background-image: url("../img/bgflow.png");
+
+    font-family: cursive;
+    font-size: 12px;
+    color:tan;
+}
+
+img {
+    background-color: gold;
+    width: 275px;
+    /*height: 430px;*/
+
+    padding: 5px;
+    margin: 2px;
+}
+
+#header {
+        text-align: center;
+
+        background-color: bisque;
+        color:salmon;
+
+        padding: 30px;
+        margin: 40px;
+    }
+    #intro {
+        text-align: center;
+
+        background-color: rgb(56, 3, 126);
+        color: beige;
+
+        padding: 10px;
+        margin: 20px;
+    }
+
+@media screen and (min-width: 1300px) {
+    
+    
+    .bookshelf {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        /*grid-template-columns: 480px 480px 480px;
+        grid-template-rows: 450px 320px 450px 320px 450px 320px 450px 320px;*/
+        
+        background-color: salmon;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        color:tan;
+
+        padding: 30px;
+        margin: 40px;
+    }
+
+    #book1 {
+        grid-row: 1;
+        grid-column: 1;
+
+        margin: 10px;
+    }
+
+#ana1 {
+        grid-row: 2;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum1 {
+        grid-row: 2;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum1:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book2 {
+        grid-row: 1;
+        grid-column: 2;
+
+        margin: 10px;
+    }
+    #ana2 {
+        grid-row: 2;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum2 {
+        grid-row: 2;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum2:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book3 {
+        grid-row: 1;
+        grid-column: 3;
+    }
+    #ana3 {
+        grid-row: 2;
+        grid-column: 3;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum3 {
+        grid-row: 2;
+        grid-column: 3;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum3:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book4 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+    #ana4 {
+        grid-row: 4;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum4 {
+        grid-row: 4;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum4:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book5 {
+        grid-row: 3;
+        grid-column: 2;
+    }
+    #ana5 {
+        grid-row: 4;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum5 {
+        grid-row: 4;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum5:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book6 {
+        grid-row: 3;
+        grid-column: 3;
+    }
+    #ana6 {
+        grid-row: 4;
+        grid-column: 3;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum6 {
+        grid-row: 4;
+        grid-column: 3;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum6:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book7 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+    #ana7 {
+        grid-row: 6;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum7 {
+        grid-row: 6;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum7:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book8 {
+        grid-row: 5;
+        grid-column: 2;
+    }
+
+    #ana8 {
+        grid-row: 6;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum8 {
+        grid-row: 6;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum8:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book9 {
+        grid-row: 5;
+        grid-column: 3;
+    }
+
+    #ana9 {
+        grid-row: 6;
+        grid-column: 3;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum9 {
+        grid-row: 6;
+        grid-column: 3;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum9:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book10 {
+        grid-row: 7;
+        grid-column: 2;
+    }
+
+    #ana10 {
+        grid-row: 8;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum10 {
+        grid-row: 8;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum10:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .bookshelf {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        background-color: salmon;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        color:tan;
+
+        padding: 30px;
+        margin: 40px;
+    }
+
+    #book1 {
+        grid-row: 1;
+        grid-column: 1;
+
+        margin: 10px;
+    }
+
+#ana1 {
+        grid-row: 2;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum1 {
+        grid-row: 2;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum1:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book2 {
+        grid-row: 1;
+        grid-column: 2;
+
+        margin: 10px;
+    }
+    #ana2 {
+        grid-row: 2;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum2 {
+        grid-row: 2;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum2:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book3 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+    #ana3 {
+        grid-row: 4;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum3 {
+        grid-row: 4;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum3:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book4 {
+        grid-row: 3;
+        grid-column: 2;
+    }
+    #ana4 {
+        grid-row: 4;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum4 {
+        grid-row: 4;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum4:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book5 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+    #ana5 {
+        grid-row: 6;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum5 {
+        grid-row: 6;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum5:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book6 {
+        grid-row: 5;
+        grid-column: 2;
+    }
+    #ana6 {
+        grid-row: 6;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum6 {
+        grid-row: 6;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum6:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book7 {
+        grid-row: 7;
+        grid-column: 1;
+    }
+    #ana7 {
+        grid-row: 8;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum7 {
+        grid-row: 8;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum7:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book8 {
+        grid-row: 7;
+        grid-column: 2;
+    }
+
+    #ana8 {
+        grid-row: 8;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum8 {
+        grid-row: 8;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum8:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book9 {
+        grid-row: 9;
+        grid-column: 1;
+    }
+
+    #ana9 {
+        grid-row: 10;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum9 {
+        grid-row: 10;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum9:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book10 {
+        grid-row: 9;
+        grid-column: 2;
+    }
+
+    #ana10 {
+        grid-row: 10;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum10 {
+        grid-row: 10;
+        grid-column: 2;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum10:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .bookshelf {
+        display: grid;
+        grid-template-columns: auto;
+
+        background-color: salmon;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        color:tan;
+
+        padding: 30px;
+        margin: 40px;
+    }
+
+    #book1 {
+        grid-row: 1;
+        grid-column: 1;
+
+        margin: 10px;
+    }
+
+#ana1 {
+        grid-row: 2;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum1 {
+        grid-row: 2;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum1:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book2 {
+        grid-row: 3;
+        grid-column: 1;
+
+        margin: 10px;
+    }
+    #ana2 {
+        grid-row: 4;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum2 {
+        grid-row: 4;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum2:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book3 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+    #ana3 {
+        grid-row: 6;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum3 {
+        grid-row: 6;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum3:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book4 {
+        grid-row: 7;
+        grid-column: 1;
+    }
+    #ana4 {
+        grid-row: 8;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum4 {
+        grid-row: 8;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum4:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book5 {
+        grid-row: 9;
+        grid-column: 1;
+    }
+    #ana5 {
+        grid-row: 10;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum5 {
+        grid-row: 10;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum5:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book6 {
+        grid-row: 11;
+        grid-column: 1;
+    }
+    #ana6 {
+        grid-row: 12;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum6 {
+        grid-row: 12;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum6:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+
+    #book7 {
+        grid-row: 13;
+        grid-column: 1;
+    }
+    #ana7 {
+        grid-row: 14;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum7 {
+        grid-row: 14;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum7:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book8 {
+        grid-row: 15;
+        grid-column: 1;
+    }
+
+    #ana8 {
+        grid-row: 16;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum8 {
+        grid-row: 16;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum8:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book9 {
+        grid-row: 17;
+        grid-column: 1;
+    }
+
+    #ana9 {
+        grid-row: 18;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum9 {
+        grid-row: 18;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum9:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+
+    #book10 {
+        grid-row: 19;
+        grid-column: 1;
+    }
+
+    #ana10 {
+        grid-row: 20;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px;
+        padding: 10px;
+    }
+    
+    #sum10 {
+        grid-row: 20;
+        grid-column: 1;
+
+        border-style: double;
+        border-color: aliceblue;
+        border-radius: 8px;
+        background-color: beige;
+        color: salmon;
+
+        margin: 30px 90px 30px 0px ;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sum10:hover {
+        opacity: 0;
+        transition-duration: 1s;
+    }
+}
