@@ -1,0 +1,28 @@
+//changes bg + transt duration based var
+@mixin theGradinator {
+    @if $gradIent {
+        //background-image: $cOlor;
+        transition-duration: 2s;
+        color: bisque;
+    }
+
+    @else {
+
+        transition-duration: 3s;
+        //opacity: 0;
+        //transform: translate(20px, 100px);
+    }
+}
+
+//during transt rotate
+@mixin moMove {
+    @for $i from 0s to 3s {
+        background-image: $gradIent;
+        border-radius: 50%;
+        //opacity: 0;
+
+        width: 200px;
+        height: auto;
+        transition: width 2s, height 3s, transform 3s;
+    }
+}

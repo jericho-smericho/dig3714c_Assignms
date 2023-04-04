@@ -1,0 +1,183 @@
+@import url("normalize.css");
+body {
+  background-color: aquamarine;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: coral;
+}
+body img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto auto;
+}
+
+@media screen and (min-width: 600px) {
+  #header {
+    text-align: center;
+    border-style: double;
+    border-color: #063970;
+    padding: 50px;
+    margin: 50px;
+    color: #063970;
+  }
+  #header h1 {
+    text-align: center;
+    /*text-shadow: 1px 2px 2px #063970;*/
+  }
+  #header h4 {
+    color: gray;
+    text-shadow: 1px 2px 4px #Da25e8;
+  }
+  #parag {
+    background-color: aliceblue;
+    border-style: double;
+    border-color: #Da25e8;
+    font-size: 20px;
+    padding: 40px;
+    margin: 50px 350px 50px 350px;
+  }
+  #parag p {
+    text-align: center;
+  }
+  #table {
+    margin: 0px 350px 0px 350px;
+    padding: 20px;
+    color: #Da25e8;
+  }
+  #table table,
+  #table th,
+  #table tr,
+  #table td {
+    border: solid #063970;
+    border-radius: 10px;
+    border-collapse: collapse;
+  }
+  #table img {
+    width: 600px;
+    height: auto;
+  }
+  #header:hover {
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    transition-duration: 2s;
+    color: bisque;
+  }
+  #parag:hover {
+    background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+    transition-duration: 2s;
+    color: bisque;
+  }
+  #plane:hover {
+    transform: rotate(359deg);
+    transition-duration: 3s;
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    transition: width 2s, height 3s, transform 3s;
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    transition: width 2s, height 3s, transform 3s;
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    transition: width 2s, height 3s, transform 3s;
+  }
+  th:hover {
+    background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+    transition-duration: 2s;
+    color: bisque;
+  }
+  td:hover {
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    transition-duration: 2s;
+    color: bisque;
+  }
+}
+@media screen and (max-width: 600px) {
+  #header {
+    text-align: center;
+    border-style: double;
+    border-color: #063970;
+    padding: 10px;
+    margin: 10px;
+    color: #063970;
+  }
+  #header h1 {
+    text-align: center;
+    /*text-shadow: 1px 2px 2px #063970;*/
+  }
+  #header h4 {
+    color: gray;
+    text-shadow: 0px 1px 3px #Da25e8;
+  }
+  #parag {
+    background-color: aliceblue;
+    border-style: double;
+    border-color: #Da25e8;
+    font-size: 15px;
+    padding: 10px;
+    margin: auto auto;
+  }
+  #parag p {
+    text-align: center;
+  }
+  #table {
+    margin: 0px 50px 0px 50px;
+    padding: 20px;
+    color: #Da25e8;
+  }
+  #table table,
+  #table th,
+  #table tr,
+  #table td {
+    border: solid #063970;
+    border-radius: 10px;
+    border-collapse: collapse;
+  }
+  #table img {
+    width: 200px;
+    height: auto;
+  }
+  #header:hover {
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    transition-duration: 2s;
+    color: bisque;
+  }
+  #parag:hover {
+    background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+    transition-duration: 2s;
+    color: bisque;
+  }
+  #plane:hover {
+    transform: rotate(359deg);
+    transition-duration: 3s;
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    transition: width 2s, height 3s, transform 3s;
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    transition: width 2s, height 3s, transform 3s;
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    transition: width 2s, height 3s, transform 3s;
+  }
+  th:hover {
+    background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+    transition-duration: 2s;
+    color: bisque;
+  }
+  td:hover {
+    background-image: linear-gradient(to left, #Da25e8, #063970);
+    transition-duration: 2s;
+    color: bisque;
+  }
+}/*# sourceMappingURL=main.css.map */

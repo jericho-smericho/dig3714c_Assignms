@@ -1,0 +1,190 @@
+@use "_variable.scss";
+@import "mixin.scss";
+@import url("normalize.css");
+
+//variables
+$fColor: #063970;
+
+$tIme: 3s;
+
+$gradIent: linear-gradient(to left, #Da25e8, $fColor);
+
+@media screen and (min-width: 600px) {
+
+    //divs
+    #header {
+        text-align: center;
+        border-style: double;
+        border-color: $fColor;
+        padding: 50px;
+        margin: 50px;
+        color: $fColor;
+
+        h1 {
+            text-align: center;
+            /*text-shadow: 1px 2px 2px #063970;*/
+
+        }
+
+        h4 {
+            color: gray;
+            text-shadow: 1px 2px 4px #Da25e8;
+
+        }
+    }
+
+    #parag {
+        //background-image: linear-gradient(to right, $fColor, #Da25e8);
+        background-color: aliceblue;
+        border-style: double;
+        border-color: #Da25e8;
+
+        font-size: 20px;
+
+        padding: 40px;
+        margin: 50px 350px 50px 350px;
+
+        p {
+            text-align: center;
+            //color: azure;
+        }
+    }
+
+    #table {
+        margin: 0px 350px 0px 350px;
+        padding: 20px;
+
+        color: #Da25e8;
+
+        table,
+        th,
+        tr,
+        td {
+            border: solid #063970;
+            border-radius: 10px;
+            border-collapse: collapse;
+        }
+
+        img {
+            width: 600px;
+            height: auto;
+        }
+    }
+
+    //hover effects
+    #header:hover {
+        background-image: $gradIent;
+        @include theGradinator;
+    }
+
+    #parag:hover {
+        background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+        @include theGradinator;
+    }
+
+    #plane:hover {
+        transform: rotate(359deg);
+        transition-duration: $tIme;
+        @include moMove;
+    }
+
+    th:hover {
+        background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+        @include theGradinator;
+    }
+
+    td:hover {
+        background-image: $gradIent;
+        @include theGradinator;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    //divs
+    #header {
+        text-align: center;
+        border-style: double;
+        border-color: $fColor;
+        padding: 10px; //50px;
+        margin: 10px; //50px;
+        color: $fColor;
+
+        h1 {
+            text-align: center;
+            /*text-shadow: 1px 2px 2px #063970;*/
+
+        }
+
+        h4 {
+            color: gray;
+            text-shadow: 0px 1px 3px #Da25e8;
+
+        }
+    }
+
+    #parag {
+        //background-image: linear-gradient(to right, $fColor, #Da25e8);
+        background-color: aliceblue;
+        border-style: double;
+        border-color: #Da25e8;
+
+        font-size: 15px;
+
+        padding: 10px;
+        margin: auto auto; //50px 350px 50px 350px;
+
+        p {
+            text-align: center;
+            //color: azure;
+        }
+    }
+
+    #table {
+        margin: 0px 50px 0px 50px; //auto auto; 
+        padding: 20px;
+
+        color: #Da25e8;
+
+        table,
+        th,
+        tr,
+        td {
+            border: solid #063970;
+            border-radius: 10px;
+            border-collapse: collapse;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    //hover effects
+    #header:hover {
+        background-image: $gradIent;
+        @include theGradinator;
+    }
+
+    #parag:hover {
+        background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+        @include theGradinator;
+    }
+
+    #plane:hover {
+        transform: rotate(359deg);
+        transition-duration: $tIme;
+        @include moMove;
+    }
+
+    th:hover {
+        background-image: linear-gradient(to left, rgb(252, 37, 87), rgb(252, 178, 19));
+        @include theGradinator;
+    }
+
+    td:hover {
+        background-image: $gradIent;
+        @include theGradinator;
+    }
+}
