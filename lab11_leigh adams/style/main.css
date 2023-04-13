@@ -1,0 +1,65 @@
+@media screen and (min-width: 900px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px 200px 200px;
+    padding: 10px;
+    margin: auto 30% auto 30%;
+  }
+  .grid .box1 {
+    grid-row: 1/span 2;
+    grid-column: 1/span 2;
+  }
+  .grid .box2 {
+    grid-row: 4;
+    grid-column: 2/span 2;
+  }
+  .grid .box3 {
+    grid-row: 1/span 3;
+    grid-column: 3;
+  }
+  .grid .box4 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .grid .box5 {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  .grid .box6 {
+    grid-row: 3;
+    grid-column: 2;
+  }
+}
+body {
+  background-color: rgb(230, 48, 79);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.grid {
+  background-color: rgb(91, 5, 74);
+  border: solid pink 5px;
+  border-radius: 10px;
+  color: rgb(1, 86, 86);
+}
+
+.grid-item {
+  background-color: pink;
+  border: dashed whitesmoke 3px;
+  border-radius: 6px;
+  color: rgb(0, 103, 103);
+  padding: 5px;
+  margin: 10px;
+}
+
+h3 {
+  /* @font-face {
+      font-family: "Bespoke";
+      src: local("Bespoke"),
+          url("Bespoke-SutPt_ivi-.otf") format("opentype") tech(color-COLRv1),
+          url("Bespoke-SutPt_ivi-.otf") format("opentype"), url("Bespoke-SutPt_ivi-.otf") format("otf");
+  }*/
+  color: rgb(44, 56, 69);
+  background-color: beige;
+}/*# sourceMappingURL=main.css.map */

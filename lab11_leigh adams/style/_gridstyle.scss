@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(230, 48, 79);
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.grid {
+    background-color: rgb(91, 5, 74);
+    border: solid pink 5px;
+    border-radius: 10px;
+    color: rgb(1, 86, 86);
+
+    //padding: 5px;
+    //margin: 5px;
+}
+
+.grid-item {
+    background-color: pink;
+    border: dashed whitesmoke 3px;
+    border-radius: 6px;
+    color: rgb(0, 103, 103);
+
+    padding: 5px;
+    margin: 10px;
+}
+
+h3 {
+    /* @font-face {
+        font-family: "Bespoke";
+        src: local("Bespoke"),
+            url("Bespoke-SutPt_ivi-.otf") format("opentype") tech(color-COLRv1),
+            url("Bespoke-SutPt_ivi-.otf") format("opentype"), url("Bespoke-SutPt_ivi-.otf") format("otf");
+    }*/
+
+    color: rgb(44, 56, 69);
+    background-color: beige;
+
+}
